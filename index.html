@@ -246,7 +246,7 @@
     
           <div class="row g-3">
             <div class="col-lg-12">
-              <form id="form1" name="form" action="{{ url_for('submit_form') }}" method="post">
+              <form id="form1" name="form" action="submit_form" method="post">
                 <div class="row g-3">
                   <div class="col-sm-6">
                     <label class="form-label">Age</label>
@@ -641,7 +641,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form method="post" action="{{ url_for('submit_feedback') }}" name ="contactform">
+            <form method="post" action="submit_feedback" name ="contactform">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
